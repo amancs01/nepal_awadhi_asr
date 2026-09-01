@@ -75,3 +75,38 @@ Do not treat a dataset as Nepal speech merely because it contains Nepali languag
 - Do not collect Nepal-Awadhi speech data during Phase 0.
 - Do not download large datasets during Phase 0.
 - Do not treat unverified dataset descriptions as facts.
+
+## Phase 0C - Nepal-Awadhi Resource Existence Audit
+
+Phase 0C broadened the search beyond mainstream ML repositories to look for speech corpora, language-documentation audio, oral-history recordings, institutional resources, theses, sociolinguistic surveys, religious media, and public cultural recordings involving Awadhi in Nepal.
+
+Current audit conclusion: No dedicated Nepal-Awadhi ASR corpus has been identified in the resources audited to date. This is not a claim that no Nepal-Awadhi corpus exists. Several Nepal-facing or Nepal-labeled resources were found, but none currently satisfy the requirements of an ASR-ready corpus with verified Nepal-origin speaker provenance, transcript access, licensing clarity, and speaker metadata.
+
+### Confirmed or partially confirmed Nepal-facing candidates
+
+- Jesus Film Audio - Awadhi, Nepal: MegaVoice lists reference M035619 as "Awadhi, Nepal", country Nepal, publisher CRU, type audio, runtime 171 min. This is confirmed as a Nepal-labeled Awadhi audio resource, but speaker origin, recording location, transcript access, and research reuse rights are UNKNOWN.
+- South Asia Bibles Awadhi media: lists Awadhi resources including Audio Bible and Jesus Films and says Awadhi is spoken in Lumbini and Sudurpashchim Province in Nepal. It is a media/resource pointer, not a research corpus.
+- Global Recordings Network / Words of Life Awadhi: MegaVoice lists an Awadhi audio resource and states that Words of Life recordings are recorded by mother-tongue speakers. The listing gives related countries as Nepal > India, but country, speaker origin, recording location, and license remain unclear.
+- Dhaka-Dhoti Awadhi rap: Kathmandu Post reports a mainstream Nepali rap song in Awadhi by Deepak Kahar, a native of Rudrapur, Rupandehi. This is evidence of Nepal-Awadhi recorded cultural production, not an ASR corpus.
+
+### Nepal-specific linguistic/text resources
+
+- Thakur and Yadav 2013, A Sociolinguistic Survey of Awadhi, Linguistic Survey of Nepal / Central Department of Linguistics, Tribhuvan University. Glottolog records it as a 92-page sociolinguistic report. Full report inspection is needed to determine whether any audio, wordlists, consent records, or field metadata exist beyond the report.
+- TU thesis, Case in English, Nepali and Awadhi: questionnaire data from 60 Awadhi native speakers in Gadhawa VDC, Deukhuri valley, Dang district.
+- TU thesis, Pronominal of English and Awadhi: questionnaire data from 50 native Awadhi speakers in Banke district.
+- TU thesis, Awadhi kinship terms: interview/questionnaire data from Awadhi speakers of Rupandehi district.
+- TU thesis, Attitudes of Awadhi Students towards Learning English: questionnaire data from Awadhi-speaking learners in Bijayanagar, Kapilvastu district.
+
+### Rejected or not ASR-ready at this stage
+
+- Glottolog, WALS, ASJP, Joshua Project, PeopleGroups, and census resources confirm language presence/classification or population context, but they are not speech corpora.
+- Hugging Face Awadhi Karya-derived resources provide Awadhi audio/text or text resources, but no Nepal-origin speaker evidence was identified in the audited metadata.
+- OpenSLR search did not identify Awadhi-specific Nepal speech; OpenSLR resources found in surrounding searches were Nepali or other Indic languages.
+- PARADISEC search results showed Nepal language-documentation collections, but no Awadhi Nepal collection was identified in the audited results.
+- The Language Archive/MPI results mentioning Awadhi were metadata about a Nepalese collector's language knowledge in other projects, not an Awadhi speech resource.
+
+### Implication for experimental design
+
+The case for building or collecting a small local Nepal-Awadhi corpus is stronger than before, but only as a tentative Phase 0 inference. Existing resources suggest Nepal-Awadhi is demographically and sociolinguistically real, and there are Nepal-labeled Awadhi media resources, but no audited source yet provides an ASR-ready Nepal-Awadhi corpus with verified speaker provenance and usable transcripts.
+
+The strongest next validation need is a metadata-only follow-up with institutions/archives before any new collection: Central Department of Linguistics / LinSuN, TU thesis authors or departments where feasible, Jesus Film/CRU, GRN/MegaVoice, and South Asia Bibles/Faith Comes By Hearing.

@@ -39,3 +39,14 @@ STATUS: PHASE 0 — RESEARCH VALIDATION
 - Are VAANI's `state`, `district`, `pincode`, and `stay(years)` fields sufficient for provenance, or do we need additional speaker-origin confirmation?
 - Should SpeeD-IA's translation and narration components be separated in all future comparisons because they differ in elicitation style?
 - Can SpeeD-IA CC BY-NC-SA be mixed legally with VAANI CC BY 4.0 outputs for the intended research artifacts?
+
+## Phase 0C new open questions
+
+- Does the Linguistic Survey of Nepal / Central Department of Linguistics retain any Awadhi audio recordings, wordlist recordings, consent forms, or field notes associated with Thakur and Yadav 2013?
+- Does the full Thakur and Yadav 2013 Awadhi survey report document exact survey points, elicitation tools, speaker counts, or any audio-recording protocol?
+- Do TU thesis authors/departments retain any original Awadhi interview recordings, or were the studies questionnaire-only with no audio capture?
+- Who recorded the MegaVoice / CRU "Jesus Film Audio - Awadhi, Nepal" resource, where was it recorded, and were speakers Nepal-origin Awadhi speakers?
+- Are scripts/transcripts for Awadhi, Nepal religious media available, aligned, and legally reusable for research?
+- Does Global Recordings Network have speaker metadata for Awadhi recordings that distinguish India, Nepal, residence, and origin?
+- Are there Nepal Academy, local government, radio, oral-history, or folk-culture archives using Nepali-script labels for Awadhi/Avadhi/Abadhi that were missed by English web search?
+- Can any public cultural recordings be used ethically for ASR evaluation, or would domain, music, consent, and copyright issues make them unsuitable?

@@ -2,32 +2,40 @@
 
 STATUS: PHASE 0 — RESEARCH VALIDATION
 
-## Answered Or Partially Answered In Phase 0A
+## Answered Or Partially Answered In Phase 0A/0B
 
 - ANSWERED: Awadhi speech datasets exist. Kumar et al. (2022) report SpeeD-IA with Awadhi from Pratapgarh, Uttar Pradesh.
 - ANSWERED: Awadhi ASR has already been studied. Kumar et al. (2022), Sood et al. (2025), and Dhasmana et al. (2026) include Awadhi ASR-related evaluation.
 - ANSWERED: Awadhi appears in donor-language selection studies. DonorRank includes Awadhi as a VAANI-D target.
+- ANSWERED FOR AUDITED SOURCES: No Nepal-origin Awadhi speech has yet been identified in SpeeD-IA or public VAANI summaries.
+- ANSWERED FOR SPEeD-IA: SpeeD-IA Awadhi is reported from Pratapgarh, Uttar Pradesh, with 10 speakers and 04:46:30 total Awadhi audio.
+- ANSWERED FOR VAANI SUMMARY: VAANI reports Awadhi across 9 districts, 8.85 hours audio, and 0.27 hours transcribed in the paper; the transcription subset card reports 0.28 hours transcribed.
 - PARTIAL: Dominant-language normalization has been studied in a related setting. Dhasmana et al. (2026) quantify Garhwali non-Hindi terms converted to Hindi, but this is not Nepal-Awadhi.
 - PARTIAL: Nepal-language ASR transfer has been studied. Sharma et al. (2026) study Nepali-to-Nepal-Bhasha transfer, not Nepal-Awadhi.
 
 ## Still Unresolved
 
-- UNKNOWN: Has Nepal-Awadhi ASR specifically been studied?
-- UNKNOWN: Does a Nepal-Awadhi speech corpus exist?
-- UNKNOWN: Do any existing Awadhi datasets include speakers from Nepal?
+- UNKNOWN: Has Nepal-Awadhi ASR specifically been studied outside the sources audited so far?
+- UNKNOWN: Does a Nepal-Awadhi speech corpus exist outside SpeeD-IA and VAANI?
+- UNKNOWN: Do any existing Awadhi datasets beyond SpeeD-IA and VAANI include speakers from Nepal?
+- UNKNOWN: What exact districts/states contribute VAANI Awadhi rows?
+- UNKNOWN: How many speakers contribute VAANI Awadhi rows?
+- UNKNOWN: Whether VAANI Awadhi speaker `stay(years)` metadata is sufficient to infer residence history or origin for cross-border claims.
+- UNKNOWN: Whether row-level VAANI Awadhi metadata contains any Nepal references; public summary does not show any.
+- UNKNOWN: Whether SpeeD-IA public transcription files expose enough speaker IDs/metadata to build speaker-disjoint splits without audio download.
+- UNKNOWN: Whether Sood et al. (2025)'s description of ASR-generated SpeeD-IA transcriptions reflects their own processing or the original corpus pipeline.
 - UNKNOWN: Has anyone directly compared Indian Awadhi and Nepal-Awadhi ASR under controlled conditions?
 - UNKNOWN: Has anyone studied Hindi versus Nepali donor transfer specifically for Nepal-Awadhi?
 - UNKNOWN: Does the DonorRank full donor matrix include Nepali as a donor to Awadhi, and if so how did it perform?
 - UNKNOWN: What exact language does the donor code `hne` refer to in DonorRank's Awadhi row?
-- UNKNOWN: What speaker-origin metadata is available for VAANI Awadhi?
-- UNKNOWN: What licensing and access restrictions apply to VAANI Awadhi and SpeeD-IA for our intended research use?
 - UNKNOWN: Is approximately 5-10 hours of Nepal-Awadhi enough for controlled cross-border robustness and donor-transfer claims?
 - UNKNOWN: What annotation definition could defensibly measure Awadhi-to-Hindi or Awadhi-to-Nepali normalization without erasing legitimate variation?
 - UNKNOWN: Whether read and spontaneous Nepal-Awadhi can be compared without confounding region, topic, recording condition, and transcription practice.
 
-## New Questions Revealed By The Literature
+## New Questions Revealed By The Dataset Provenance Audit
 
-- Should Nepal-Awadhi evaluation require both standard normalized WER/CER and conservative minimally normalized WER/CER?
-- Should any future language-model decoding be treated as a possible source of standardization pressure?
-- How should we separate practical baselines such as Whisper from controlled donor-language experiments where pretraining exposure matters?
-- Would speaker-disjoint splitting reduce comparability with some prior work but improve validity for our generalization claims?
+- Should VAANI full audio and VAANI transcription-part be treated as separate resources in experiment planning because Awadhi has 8.85 hours full audio but only 0.27-0.28 transcribed hours?
+- Can VAANI gated metadata be inspected without downloading audio, and does that satisfy ethics/access constraints?
+- Are VAANI's `state`, `district`, `pincode`, and `stay(years)` fields sufficient for provenance, or do we need additional speaker-origin confirmation?
+- Should SpeeD-IA's translation and narration components be separated in all future comparisons because they differ in elicitation style?
+- Can SpeeD-IA CC BY-NC-SA be mixed legally with VAANI CC BY 4.0 outputs for the intended research artifacts?

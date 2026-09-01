@@ -1,0 +1,2 @@
+# Phase 0 research validation only.
+# No ML, ASR training, or dataset-download dependencies are specified yet.

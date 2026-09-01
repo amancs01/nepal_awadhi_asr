@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Research outputs and large/local artifacts
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/external/
+data/**/*.wav
+data/**/*.flac
+data/**/*.mp3
+data/**/*.m4a
+data/**/*.ogg
+data/**/*.opus
+data/**/*.tar
+data/**/*.tar.gz
+data/**/*.tgz
+data/**/*.zip
+data/**/*.7z
+models/
+checkpoints/
+results/generated/
+results/runs/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.wav
+*.flac
+*.mp3
+
+# Logs and caches
+logs/
+*.log
+.cache/

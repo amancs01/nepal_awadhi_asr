@@ -105,3 +105,23 @@ Do not invent a language-fidelity score yet. A scientifically defensible annotat
 - Do not train or fine-tune ASR models during Phase 0.
 - Do not implement speculative ML code before the research design is reviewed.
 - Experimental plans must include uncertainty, risks, and negative-result handling.
+
+## Phase 0D Sociolinguistic Controls For Future Design
+
+Thakur and Yadav (2013) provide primary sampling guidance for future Nepal-Awadhi corpus planning. Their survey locations were Tenuhawa/Rupandehi, Jamuni-Maharajgunj/Kapilvastu, Thandeukhuri-Gadhwa/Dang, Tribhuvan Chowk-Nepalgunj/Banke, and Gulariya/Bardiya. The main questionnaire sample was N=60, with 30 male and 30 female respondents and age categories 15-29, 30-59, and 60+.
+
+Their wordlist method is especially relevant for controlled sampling: at least two informants per survey point, selected as Awadhi mother-tongue speakers born in the village or nearby and not having lived outside the village for extended periods. Wordlist responses were elicited using Nepali prompts and transcribed in IPA.
+
+Future Nepal-Awadhi sampling should record district/locality, local residence history, mother-tongue status, age band, sex/gender category, literacy/education, and reported knowledge/use of Nepali, Hindi, Bhojpuri, Urdu, Tharu, English, and other locally relevant languages where appropriate.
+
+A future Nepal-Awadhi corpus should distinguish source evidence from design interpretation. Knowing Nepali or Hindi is not the same as frequent code-switching, and Hindi linguistic proximity is not evidence that Hindi will be the best ASR donor. Thakur and Yadav make Hindi and Nepali HIGH-confidence sociolinguistic contact languages, not validated ASR donors.
+
+If the corpus includes only one district or one social network, evaluation claims must be framed as local or exploratory. Multi-region sampling is required before making broad Nepal-Awadhi claims. Speaker-disjoint splits remain required.
+
+Future analysis should keep separate fields for:
+
+- Language knowledge.
+- Language use domain.
+- Self-reported language attitude.
+- Observed code-switching in transcripts.
+- Donor-language exposure relevant to ASR interpretation.

@@ -49,3 +49,15 @@ Evidence required before freezing:
 - UNKNOWN: Has Hindi versus Nepali transfer specifically for Nepal-Awadhi already been studied?
 - UNKNOWN: Has read versus spontaneous Nepal-Awadhi ASR been evaluated?
 - UNKNOWN: Would approximately 5-10 hours of Nepal-Awadhi support valid target-data scaling experiments?
+
+## Phase 0D Sociolinguistic Foundation Notes
+
+The research questions remain STATUS: NOT FROZEN.
+
+The revised Phase 0D pass uses directly verified facts from Thakur and Yadav (2013). The report documents five Nepal-Awadhi survey locations, a 210-word lexical comparison, approximately 78%-89% lexical similarity across survey points, and mutual intelligibility across the surveyed varieties. This supports preserving regional metadata, but it does not support treating Nepal-Awadhi as a set of strongly mutually unintelligible dialects.
+
+The primary question should continue to require "reasonably comparable evaluation conditions" and should explicitly require district/region metadata for Nepal-Awadhi. If future speech comes from only one district, the question should be narrowed to that locality rather than framed as Nepal-Awadhi broadly.
+
+The Hindi/Nepali contact premise is now HIGH-confidence at the sociolinguistic-contact level: Thakur and Yadav report Nepali knowledge among main respondents at 70% male / 33% female and Hindi knowledge at 83% male / 47% female, with child language knowledge linked to Nepali schooling/towns and Hindi markets/India/films/television. This does not establish that either language is a good ASR donor.
+
+The analysis question should not assume code-switching is common. It should remain focused on testing whether substitution or normalization patterns occur, with the definition postponed until a defensible annotation scheme is created.

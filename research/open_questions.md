@@ -50,3 +50,19 @@ STATUS: PHASE 0 — RESEARCH VALIDATION
 - Does Global Recordings Network have speaker metadata for Awadhi recordings that distinguish India, Nepal, residence, and origin?
 - Are there Nepal Academy, local government, radio, oral-history, or folk-culture archives using Nepali-script labels for Awadhi/Avadhi/Abadhi that were missed by English web search?
 - Can any public cultural recordings be used ethically for ASR evaluation, or would domain, music, consent, and copyright issues make them unsuitable?
+
+## Phase 0D sociolinguistic open questions revised after primary LinSuN facts
+
+- ANSWERED: Thakur and Yadav (2013) surveyed five Nepal-Awadhi locations: Tenuhawa/Rupandehi, Jamuni-Maharajgunj/Kapilvastu, Thandeukhuri-Gadhwa/Dang, Tribhuvan Chowk-Nepalgunj/Banke, and Gulariya/Bardiya.
+- ANSWERED: The LinSuN Awadhi lexical comparison used a 210-word list and reports approximately 78%-89% lexical similarity across five survey points.
+- ANSWERED: The LinSuN report concludes that the surveyed varieties remain mutually intelligible and that dialectal variation does not appear to hinder mutual intelligibility.
+- ANSWERED: The main questionnaire sample was N=60, with 30 male and 30 female respondents and age categories 15-29, 30-59, and 60+.
+- ANSWERED: Wordlist informants included at least two per survey point; they were selected as local/nearby-born Awadhi mother-tongue speakers without extended residence outside the village.
+- ANSWERED: Wordlist responses were elicited using Nepali prompts and transcribed in IPA.
+- ANSWERED: Both Hindi and Nepali are HIGH-confidence sociolinguistic contact languages for Nepal-Awadhi, based on main-respondent and child language-knowledge evidence in Thakur and Yadav (2013).
+- UNKNOWN: Does the LinSuN Awadhi report document pronunciation/phonological variation relevant to ASR error analysis?
+- UNKNOWN: Does any LinSuN audio, wordlist recording, or field recording exist, or was the survey record text-only/IPA-only?
+- UNKNOWN: How frequently do Nepal-Awadhi speakers code-switch at the utterance level in spontaneous speech, and with which languages?
+- UNKNOWN: Are Nepali and Hindi contact effects visible in actual Nepal-Awadhi lexical, morphological, or phonological forms beyond reported language knowledge/use?
+- UNKNOWN: What role do Bhojpuri, Urdu, Tharu, and English play in actual Nepal-Awadhi speech by district and domain?
+- UNKNOWN: If initial collection is limited to one or two districts, what is the narrowest scientifically honest research question?

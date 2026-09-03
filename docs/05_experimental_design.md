@@ -125,3 +125,28 @@ Future analysis should keep separate fields for:
 - Self-reported language attitude.
 - Observed code-switching in transcripts.
 - Donor-language exposure relevant to ASR interpretation.
+
+## Phase 0E Model And Experiment Feasibility Notes
+
+Phase 0E separates external practical baselines from controlled transfer models.
+
+External practical baselines should answer: How well does a strong existing ASR system work on Nepal-Awadhi? Candidate systems include Whisper multilingual, SraVaani 1.0, IndicConformer-600M, MMS, and possibly Sarvam Saaras if API/data-governance terms are acceptable.
+
+Controlled-transfer models should answer: What is the effect of Hindi vs Nepali donor data under matched conditions? Candidate systems should use the same base checkpoint, same tokenizer/transcription policy, same training procedure, same target data, same test set, and same decoding configuration. `facebook/w2v-bert-2.0` is the current strongest candidate because it requires downstream ASR fine-tuning and was used in Dialect Matters-style transfer experiments. A neutral IndicWav2Vec base may also be viable if checkpoint availability and reproducible recipes are verified.
+
+The donor design `10h Hindi vs 10h Nepali vs 5h+5h` is not frozen. It may confound donor language with dataset source, speech style, recording quality, speaker count, transcription quality, domain, tokenizer/script, and previous model exposure. Hindi and Nepali remain HIGH-confidence sociolinguistic contact languages, but neither is proven to be a better ASR donor.
+
+A minimum primary-question experiment would require a speaker-disjoint Nepal-Awadhi test set and zero-shot evaluation using 2-3 external baselines. Donor-transfer experiments, target-data scaling, and multiple-seed sweeps should remain later-stage designs until the data and compute budget are known.
+
+## Final Phase 0 Experimental Gate
+
+Minimum defensible path:
+
+- ESSENTIAL: Practical zero-shot ASR evaluation on a speaker-disjoint Nepal-Awadhi test set with documented transcription and normalization policy.
+- OPTIONAL: Nepal-Awadhi-only adaptation after enough target data exists and speaker-disjoint train/dev/test splits are possible.
+- POSTPONE: Hindi donor transfer until a matched Hindi donor subset is selected and a no-donor/target-only baseline is defined.
+- POSTPONE: Nepal-origin Nepali donor transfer until Nepal-origin donor provenance is verified and matchability against Hindi is defensible.
+- POSTPONE: Hindi+Nepali donor transfer until single-donor conditions are controlled.
+- ESSENTIAL IF RQ3 IS RETAINED: Sampled manual language-fidelity/error analysis after ASR outputs exist and annotation rules are defined.
+
+Do not assume 5-10 hours is sufficient or necessary. Do not assume 10h Hindi vs 10h Nepali is the correct design. Donor subsets should be matched by hours, utterance count, speaker count, duration distribution, speech style, domain, recording condition, transcript quality, script/normalization, and license as far as practical.

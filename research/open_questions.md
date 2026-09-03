@@ -66,3 +66,25 @@ STATUS: PHASE 0 — RESEARCH VALIDATION
 - UNKNOWN: Are Nepali and Hindi contact effects visible in actual Nepal-Awadhi lexical, morphological, or phonological forms beyond reported language knowledge/use?
 - UNKNOWN: What role do Bhojpuri, Urdu, Tharu, and English play in actual Nepal-Awadhi speech by district and domain?
 - UNKNOWN: If initial collection is limited to one or two districts, what is the narrowest scientifically honest research question?
+
+## Phase 0E model and feasibility open questions
+
+- What local or cloud hardware is available: GPU model, VRAM, RAM, storage, operating system, and allowed runtime length?
+- Can SraVaani 1.0 access be obtained, and do release artifacts explicitly list Awadhi and Nepali support?
+- Does MMS-1B-all include verified Awadhi, Hindi, and Nepali adapters usable under CC-BY-NC-4.0 for this project?
+- Can a neutral IndicWav2Vec base checkpoint and reproducible Hindi/Nepali fine-tuning recipes be identified?
+- Which Hindi and Nepali donor datasets can be matched by hours, speech style, domain, recording quality, number of speakers, transcription quality, script, and license?
+- Should the first donor comparison use equal donor hours, equal speaker counts, equal utterance counts, or a combination?
+- Is `10h Hindi vs 10h Nepali vs 5h+5h` scientifically defensible, or should total donor hours and speaker diversity be controlled differently?
+- How many random seeds are feasible for key comparisons given compute constraints?
+- Which external baselines can be run without sending sensitive future Nepal-Awadhi audio to third-party APIs?
+- What conservative normalization policy should be paired with WER/CER before language-fidelity analysis?
+
+## Final Phase 0 decision-gate open questions
+
+- Can the Nepali Spoken Corpus be accessed under terms compatible with this project, and can it be subset by speaker/metadata without unacceptable licensing or privacy constraints?
+- Is OpenSLR SLR54 sufficiently Nepal-origin for RQ2, or does it only support a weaker "Nepali donor" condition?
+- Can Kathbath Hindi and OpenSLR SLR54 Nepali be matched closely enough by speaker count, hours, utterance duration, style, transcript quality, and split policy?
+- Can FLEURS Hindi/Nepali be used as a same-framework donor pilot while explicitly avoiding Nepal-origin claims for `ne_np`?
+- Is RQ2 better postponed until a small newly collected Nepal-origin Nepali donor set is ethically approved and matched to Nepal-Awadhi collection conditions?
+- What minimum Nepal-Awadhi evaluation set can answer RQ1 without overclaiming regional representativeness?

@@ -61,3 +61,9 @@ The primary question should continue to require "reasonably comparable evaluatio
 The Hindi/Nepali contact premise is now HIGH-confidence at the sociolinguistic-contact level: Thakur and Yadav report Nepali knowledge among main respondents at 70% male / 33% female and Hindi knowledge at 83% male / 47% female, with child language knowledge linked to Nepali schooling/towns and Hindi markets/India/films/television. This does not establish that either language is a good ASR donor.
 
 The analysis question should not assume code-switching is common. It should remain focused on testing whether substitution or normalization patterns occur, with the definition postponed until a defensible annotation scheme is created.
+
+## Final Phase 0 research-question gate
+
+- RQ1: How well do existing ASR systems recognize Nepal-Awadhi speech? STATUS: PLAUSIBLE, not frozen. Baseline models exist, but a valid speaker-disjoint Nepal-Awadhi evaluation set is still required.
+- RQ2: Under controlled conditions, does Hindi or Nepal-origin Nepali donor data produce greater improvement in Nepal-Awadhi ASR? STATUS: NEEDS REVISION / POSTPONE, not frozen. The donor comparison is meaningful, but no perfect matched Hindi vs Nepal-origin Nepali donor pair has been verified.
+- RQ3: What kinds of language-fidelity errors occur when ASR systems recognize Nepal-Awadhi, particularly possible Hindi/Nepali normalization or substitution? STATUS: PLAUSIBLE, not frozen. Requires a defensible annotation protocol and should not assume frequent code-switching.
